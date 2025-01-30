@@ -45,7 +45,10 @@
             font-family: 'Times New Roman', Times, serif;
             color: #ff5a75;
             animation: heartbeat 1.5s infinite;
+            position: relative;
+            top: 50px;
         }
+
 
         .container {
             display: flex;
@@ -127,16 +130,20 @@
             border: none;
             cursor: pointer;
             z-index: 100;
+            
         }
 
         .mostrar {
             opacity: 1;
-            transform: translateY(-45px);
+            transform: translateY(-10px);
         }
 
         .botones {
             margin-top: 20px;
             display: none;
+
+            position: relative;
+            bottom: 100px; /* Mueve el h1 hacia abajo */
         }
 
         .botones button {
